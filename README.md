@@ -1,4 +1,4 @@
-# Estudo Comparativo sobre Segurança e Autenticação em Sistemas Descentralizados e Tradicionais
+# Autenticação Descentralizada com Blockchain: Eficácia, Barreiras de Adoção e Contribuições da Engenharia de Software
 
 **Autor:** Douglas Viana Fernandes  
 **Instituição:** Pontifícia Universidade Católica de Minas Gerais – PUCMG  
