@@ -1,0 +1,49 @@
+# Fichamento – *Blockchain-Engineers Wanted: an Empirical Analysis on Required Skills, Education and Experience*
+
+**Autores:** Mohamad Kassab, Giuseppe Destefanis, Joanna DeFranco, Prince Pranav  
+**Publicação:** IEEE/ACM International Workshop on Emerging Trends in Software Engineering for Blockchain (WETSEB), 2021  
+**DOI:** 10.1109/WETSEB52558.2021.00014  
+
+---
+
+## 1. Fichamento de Conteúdo
+
+O artigo investiga a formação do papel profissional do *blockchain engineer* no mercado dos Estados Unidos, analisando 400 anúncios de emprego coletados sistematicamente no LinkedIn. A motivação central é que, apesar do crescimento acelerado da tecnologia blockchain e do aumento expressivo da demanda por especialistas, ainda há pouca clareza sobre quais competências, formações e experiências realmente compõem esse novo perfil profissional. O estudo emprega análise qualitativa (codificação textual) e quantitativa (estatísticas, crosstabs) para identificar requisitos de habilidades técnicas, habilidades específicas de blockchain, soft skills, níveis de experiência e formação educacional.
+
+Os resultados mostram que o termo “blockchain engineer” cobre uma ampla diversidade de cargos, com predominância de posições sêniores. A maioria das empresas contratantes está no setor de tecnologia, mas também há presença relevante de setores como finanças, saúde, logística e defesa. As habilidades mais demandadas incluem domínio de plataformas blockchain (sobretudo Ethereum), desenvolvimento de *smart contracts*, mecanismos de consenso e ferramentas da família Hyperledger. Do lado técnico, há forte demanda por programação (Java, JavaScript, Python), arquitetura e design de software, bancos de dados e ferramentas modernas de DevOps e computação em nuvem. Em termos de soft skills, comunicação e pensamento crítico são as mais relevantes — embora apareçam com menor frequência em comparação a hard skills.
+
+A pesquisa conclui que existe um novo papel profissional em consolidação, com competências específicas e distintas da engenharia de software tradicional, mas que o mercado ainda prioriza experiência prática sobre formação acadêmica formal. O artigo sugere que universidades e programas educacionais precisam adaptar currículos para atender a essa crescente demanda e destaca que o perfil procurado combina expertise técnica ampla com especialização em ecossistemas blockchain.
+
+---
+
+## 2. Fichamento Bibliográfico
+
+- Cargos associados ao “blockchain engineer” são variados, incluindo *developer*, *architect*, *consultant* e posições associadas a linguagens específicas (p. 3–4).  
+- A demanda é majoritariamente por profissionais sêniores, com forte ênfase em experiência prévia (p. 4).  
+- A maioria das empresas contratantes pertence ao setor de TI, mas diversos outros setores aparecem com menor frequência (p. 5).  
+- Blockchain skills mais requisitadas: Ethereum/Ether (36,6%), Bitcoin (14,9%), Ripple (4,3%), *smart contracts* (31,6%), Solidity (16,1%), Hyperledger (22,4%) (p. 6).  
+- Linguagens de programação mais pedidas: Java (34,5%), JavaScript (30,8%), Python (27%), C++ (20,2%) (p. 7).  
+- Competências adicionais: bancos de dados (MongoDB 11,8%, SQL Server 11,3%), ferramentas DevOps/Cloud (AWS 21,8%, Docker 15,6%, Kubernetes 11,3%) (p. 7–8).  
+- Soft skills mais citadas: comunicação (26,1%), pensamento analítico/crítico (4,9%), trabalho em equipe (3,8%) (p. 8–9).  
+- Requisitos educacionais: 48,8% pedem bacharelado; 47,7% não especificam; apenas 3,5% pedem mestrado/doutorado (p. 9).  
+- A média de experiência exigida é de 4,8 anos, sendo um dos requisitos mais recorrentes (p. 9).  
+
+---
+
+## 3. Fichamento de Citações
+
+- “A new ‘blockchain engineer’ role is shaping up, and specific skills, educational background, and experience are requested from the job market.”  
+- “Ethereum comes in the first place, with 36.6% of ads asking for experience with it.”  
+- “Programming skills are fundamental and required for the role of blockchain engineer.”  
+- “Companies are trying to hire traditional software engineers and then convert them into blockchain engineers along the way.”  
+- “Previous experience plays an essential role during the hiring process for a blockchain engineer role.”  
+- “Even though a small fraction of the posts revealed the blockchain platform developed by the company, cryptocurrency development still dominates the landscape.”  
+- “This study indicates that blockchain engineers need to master a wide range of competencies.”  
+
+---
+
+## 4. Síntese Final
+
+O artigo mostra que o papel de *blockchain engineer* está sendo formalizado e consolidado, com forte demanda industrial por profissionais experientes, com amplo domínio técnico e especialização em plataformas blockchain — especialmente Ethereum. Trabalhos com *smart contracts*, mecanismos de consenso e desenvolvimento em ambientes distribuídos são centrais para o perfil. A demanda educacional formal ainda é baixa, mas tende a crescer à medida que universidades criam cursos e trilhas de formação em blockchain.
+
+As conclusões reforçam que o mercado procura engenheiros multifuncionais: capazes de programar,
