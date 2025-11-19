@@ -1,0 +1,29 @@
+# Fichamento – A framework to support software developers in implementing privacy features
+
+**Referência completa:**  
+Mazeli, A. *A framework to support software developers in implementing privacy features.* In: ICSE '22: Companion Proceedings of the ACM/IEEE 44th International Conference on Software Engineering, pp. 245–247, 2022. DOI: 10.1145/3510454.3517054
+
+---
+
+## 1. Fichamento de Conteúdo
+
+O artigo discute as dificuldades enfrentadas por desenvolvedores ao incorporar requisitos de privacidade em sistemas de software desde as etapas iniciais do projeto. Mazeli argumenta que muitos profissionais têm interpretações incompletas das regulamentações, o que resulta em implementações inconsistentes. Para investigar essas lacunas, o autor propõe quatro etapas: uma revisão sistemática da literatura para mapear como desenvolvedores entendem privacidade; dois estudos baseados em tarefas para avaliar se conseguem cumprir exigências regulatórias; uma análise dos modelos mentais utilizados ao enfrentar desafios de conformidade; e a criação de um framework destinado a apoiar decisões técnicas relacionadas à privacidade no desenvolvimento de software. O estudo ressalta que a privacidade deve ser integrada ao fluxo de engenharia e não tratada como um requisito tardio.
+
+---
+
+## 2. Fichamento Bibliográfico
+
+- Desenvolvedores têm dificuldade em interpretar corretamente legislações de privacidade e traduzir isso em decisões de design (p. 245).  
+- A pesquisa inclui dois estudos baseados em tarefas para avaliar conformidade prática de desenvolvedores (p. 246).  
+- O trabalho também investiga modelos mentais usados por desenvolvedores ao implementar requisitos de privacidade (p. 246).  
+- O objetivo final é propor um framework que auxilie desenvolvedores a tomar decisões de privacidade de maneira fundamentada (p. 247).
+
+---
+
+## 3. Fichamento de Citações
+
+- "Software developers are inundated with responsibility to incorporate privacy artifacts into software design from the onset."  
+- "Little is understood about the struggles developers face implementing privacy into software design."  
+- "This PhD will undertake a Systematic Literature Review to understand developers’ interpretation or lack thereof of privacy regulations."  
+- "Two task-based studies will analyze software developers' privacy compliance."  
+- "We aim to design and evaluate a framework that helps developers make informed privacy decisions."
