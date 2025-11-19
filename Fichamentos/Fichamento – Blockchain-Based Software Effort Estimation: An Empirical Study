@@ -1,0 +1,45 @@
+# Fichamento – *Blockchain-Based Software Effort Estimation: An Empirical Study*
+
+**Autores:** Mansoor Ahmed, Naeem Iqbal, Faraz Hussain, Murad-Ali Khan, Markus Helfert, Imran, Jungsuk Kim  
+**Publicação:** IEEE Access, Volume 10, 2022  
+**DOI:** 10.1109/ACCESS.2022.3216840  
+**Recebido:** 12 Sep 2022 • **Aceito:** 29 Sep 2022 • **Publicado:** 25 Oct 2022  
+
+---
+
+## 1. Fichamento de Conteúdo
+
+O artigo propõe um novo método de estimativa de esforço de software baseado em blockchain, chamado **BBSEE (Blockchain-Based Software Effort Estimation)**, para superar limitações presentes em duas abordagens amplamente utilizadas: estimativas por grupo (como Wide-band Delphi) e estimativas por analogia. Segundo os autores, esses métodos tradicionais sofrem com falta de especialistas, viés humano nas decisões e ausência de dados históricos confiáveis — especialmente em organizações pequenas. A solução proposta utiliza blockchain para criar uma rede verificável de especialistas e um repositório descentralizado de dados históricos imutáveis, garantindo disponibilidade, auditabilidade e remoção de viés presencial.
+
+Para validar o método, os autores desenvolveram uma aplicação descentralizada (dApp) que operacionaliza o BBSEE e conduziram dois estudos de caso com **52 organizações** e dois experimentos controlados comparando BBSEE com Wide-band Delphi. Os resultados indicam que BBSEE reduz erros de estimativa (MMRE = 0.17 contra 0.256), aumenta previsões bem-sucedidas (PRED 25 = 80% contra 60%) e diminui custo e tempo de estimar projetos. Os autores também apoiam suas conclusões com métricas clássicas de avaliação: MMRE, MAE e PRED(25). Em síntese, o estudo demonstra que a integração de blockchain com métodos de estimativa pode oferecer melhorias reais de precisão, transparência e eficiência operacional, sugerindo um novo paradigma para engenharia de software baseada em dados verificáveis.
+
+---
+
+## 2. Fichamento Bibliográfico
+
+- A estimativa de esforço é essencial para planejamento, orçamento e controle de projetos, mas métodos atuais ainda apresentam lacunas significativas de precisão (p. 120412–120413).  
+- Métodos de grupo como Wide-band Delphi sofrem com **viés, falta de especialistas e dependência de reuniões presenciais** (p. 120413).  
+- Métodos por analogia dependem fortemente da existência de **dados históricos confiáveis**, raros em muitas organizações (p. 120413–120414).  
+- O BBSEE supera essas barreiras criando um **mercado de especialistas verificáveis via blockchain**, eliminando limitações de disponibilidade e viés (p. 120415).  
+- O repositório blockchain fornece **dados históricos imutáveis**, resolvendo o problema de inconsistência e escassez de dados (p. 120416).  
+- Experimentos usando a base PROMISE (81 projetos) demonstram a superioridade do BBSEE com **MMRE=0.17**, **MAE=596** e **PRED(25)=80%** (p. 120421–120422).  
+- O uso de uma dApp permite simular o processo completo da metodologia, garantindo reprodutibilidade dos testes (p. 120417).  
+
+---
+
+## 3. Fichamento de Citações
+
+- “The proposed BBSEE overcomes the problem of a lack of experts by introducing a remote network that encapsulates a verifiable community of estimation experts.”  
+- “The problem of lack of historical data is overcome by introducing a blockchain-based repository, where historical data is securely stored and publicly available.”  
+- “We observed that the BBSEE method outperforms expert judgment and analogy-based effort estimation methodologies in terms of software effort estimation.”  
+- “The performance evaluation results imply that the proposed BBSEE has a positive impact on the time and cost required for estimation activities.”  
+- “To the best of our knowledge, no work is previously done on Blockchain-based software effort estimation.”  
+- “The lowest value of MMRE (0.17) and highest value of PRED(25) (80%) indicate the efficacy of BBSEE.”  
+- “Bias in the physical existing group is overcome by BBSEE by introducing remote groups.”  
+
+---
+
+## 4. Síntese Final
+
+O artigo demonstra que métodos tradicionais de estimativa de esforço falham diante de limitações humanas e estruturais, especialmente em ambientes com poucos especialistas ou pouco histórico documentado. O BBSEE surge como uma abordagem inovadora que combina blockchain, especialistas distribuídos e repositórios imutáveis de dados. Os resultados empíricos mostram ganhos consistentes em precisão, eficiência e redução de viés, sugerindo que blockchain pode ter papel relevante na modernização da engenharia de software. O estudo contribui abrindo uma nova linha de pesquisa em *blockchain-based software engineering* e fornece evidências práticas para adoção da tecnologia em contextos reais.
+
