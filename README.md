@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto investiga, de maneira **empírica e comparativa**, dois paradigmas amplamente utilizados para autenticação digital:
 
@@ -21,7 +21,7 @@ Este trabalho compara esses dois modelos com base em **métricas empíricas repo
 
 ---
 
-## 📌 Contextualização
+## Contextualização
 
 Com a crescente dependência de sistemas online, os mecanismos de autenticação tornaram-se críticos para segurança, privacidade e integridade de dados. Protocolos amplamente adotados, como *OAuth 2.0* e *OpenID Connect*, funcionam bem na prática, mas dependem da integridade de servidores centrais — que podem ser atacados, comprometidos ou mal configurados.
 
@@ -38,13 +38,13 @@ Este trabalho aborda exatamente essa lacuna.
 
 ---
 
-## 🎯 Objetivo Geral
+## Objetivo Geral
 
 **Comparar, com base em evidências empíricas publicadas, mecanismos de autenticação tradicionais e modelos descentralizados baseados em blockchain, identificando benefícios, limitações e condições práticas de adoção.**
 
 ---
 
-## 🎯 Objetivos Específicos
+## Objetivos Específicos
 
 - Identificar e organizar métricas empíricas disponíveis na literatura sobre mecanismos centralizados e descentralizados.  
 - Construir uma matriz comparativa envolvendo segurança, desempenho e auditabilidade.  
@@ -53,7 +53,7 @@ Este trabalho aborda exatamente essa lacuna.
 
 ---
 
-## 📌 Problema de Pesquisa
+## Problema de Pesquisa
 
 A literatura carece de estudos comparativos robustos sobre autenticação. A maioria dos trabalhos aborda soluções isoladas, o que impede compreender:
 
@@ -65,13 +65,13 @@ Sem essa comparação, engenheiros e instituições não têm clareza para tomar
 
 ---
 
-## ❓ Questão de Pesquisa
+## Questão de Pesquisa
 
 **Em que medida mecanismos de autenticação baseados em blockchain superam ou complementam modelos centralizados quanto à segurança, ao desempenho e à auditabilidade/operacionalidade?**
 
 ---
 
-## 🧪 Metodologia
+## Metodologia
 
 O estudo segue uma abordagem **empírica e documental**, fundamentada na Engenharia de Software Experimental:
 
@@ -86,7 +86,7 @@ O estudo segue uma abordagem **empírica e documental**, fundamentada na Engenha
 
 ---
 
-## 📌 Resultados Esperados
+## Resultados Esperados
 
 - Um panorama comparativo estruturado sobre autenticação centralizada vs. descentralizada.  
 - Identificação de vantagens reais da descentralização — e também de suas limitações práticas.  
@@ -96,7 +96,7 @@ O estudo segue uma abordagem **empírica e documental**, fundamentada na Engenha
 
 ---
 
-## 📚 Escopo do Estudo
+## Escopo do Estudo
 
 O trabalho **não envolve implementação**, prototipação ou testes próprios.  
 Toda análise é realizada **a partir de dados empíricos já publicados**.
@@ -113,5 +113,5 @@ As dimensões comparadas incluem:
 
 ---
 
-## 📁 Organização do Repositório
+## Organização do Repositório
 
