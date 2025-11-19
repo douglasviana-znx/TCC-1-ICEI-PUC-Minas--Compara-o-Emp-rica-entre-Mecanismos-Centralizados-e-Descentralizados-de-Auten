@@ -1,0 +1,43 @@
+# Fichamento – *A Comprehensive Formal Security Analysis of OAuth 2.0*
+
+**Autores:** Daniel Fett, Ralf Küsters, Guido Schmitz  
+**Publicação:** CCS 2016 – ACM SIGSAC Conference on Computer and Communications Security  
+**Páginas:** 1204–1215  
+**DOI:** 10.1145/2976749.2978385  
+
+---
+
+## 1. Fichamento de Conteúdo
+
+O artigo apresenta a primeira análise formal realmente abrangente do protocolo OAuth 2.0 em um modelo web expressivo. Até então, a maior parte das pesquisas focava em falhas de implementações específicas ou modelos altamente simplificados, sem tratar de forma completa os elementos essenciais da Web moderna (como redirecionamentos, iframes, cookies e navegadores maliciosos). Os autores constroem um modelo formal detalhado que incorpora todos os quatro grant types do OAuth — Authorization Code, Implicit, Resource Owner Password Credentials e Client Credentials — e permitem que múltiplas instâncias do protocolo rodem simultaneamente, inclusive com RPs e IdPs maliciosos.
+
+A análise busca formalizar garantias de segurança para autorização, autenticação e integridade de sessão, fornecendo definições precisas para cada uma delas. No processo, os autores descobrem quatro ataques inéditos que comprometem a segurança do OAuth e, surpreendentemente, também afetam implementações de OpenID Connect. Esses ataques exploram sutilezas da interação entre navegadores, redirecionamentos e endpoints vulneráveis. Além de identificar as falhas, o artigo propõe correções formais e comprova matematicamente que a versão corrigida do protocolo, seguindo recomendações de segurança conhecidas, satisfaz as propriedades exigidas. O estudo serve como marco no campo, fornecendo uma validação formal inédita e extremamente rigorosa de um dos protocolos mais usados na Web moderna.
+
+---
+
+## 2. Fichamento Bibliográfico
+
+- O OAuth 2.0 é alvo de poucas análises formais completas; pesquisas anteriores focavam apenas bugs de implementação ou modelos simplificados (p. 1204).  
+- O trabalho cobre **todos os quatro grant types** de OAuth 2.0 executando em paralelo, incluindo cenários com partes maliciosas e múltiplos domínios (p. 1205).  
+- O modelo utilizado inclui um **web model expressivo**, com detalhes reais de navegação, redirecionamentos, cookies e iframes (p. 1206).  
+- São definidas formalmente propriedades de **authorization integrity**, **authentication**, e **session integrity** (p. 1207–1208).  
+- Quatro ataques novos foram descobertos no processo de prova formal, todos exploráveis em implementações reais e presentes também no OpenID Connect (p. 1209–1210).  
+- Os autores propõem correções formais e demonstram segurança da versão corrigida do OAuth (p. 1211–1213).  
+
+---
+
+## 3. Fichamento de Citações
+
+- “We carry out the first extensive formal analysis of the OAuth 2.0 standard in an expressive web model.”  
+- “Our goal is to establish strong authorization, authentication, and session integrity guarantees.”  
+- “All four OAuth grant types are covered and may even run simultaneously in the same or different relying parties and identity providers.”  
+- “We discovered four attacks which break the security of OAuth. The vulnerabilities can be exploited in practice and are present also in OpenID Connect.”  
+- “We propose fixes for the identified vulnerabilities and then prove the security of the fixed version of OAuth.”  
+- “To the best of our knowledge, this is the first comprehensive and formal proof of OAuth's security.”  
+
+---
+
+## 4. Síntese Final
+
+O artigo estabelece um novo padrão de rigor para a análise de protocolos web. Ao construir um modelo formal completo e expressivo, os autores conseguem revelar vulnerabilidades que passaram despercebidas por anos e afetam tanto OAuth quanto OpenID Connect. Além disso, ao propor e validar formalmente correções, o trabalho fornece contribuições práticas e teóricas que impactam diretamente o desenvolvimento seguro de sistemas modernos de autenticação e autorização. Trata-se de um dos estudos mais importantes sobre OAuth já publicados, frequentemente citado como referência para compreender riscos e boas práticas do protocolo.
+
