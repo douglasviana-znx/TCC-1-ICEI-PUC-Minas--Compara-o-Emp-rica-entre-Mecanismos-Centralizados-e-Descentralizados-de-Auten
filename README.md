@@ -71,6 +71,6 @@ A execução seguirá o cronograma da disciplina **TCC I – PUCMG (2025/1)**.
 - Identificação de lacunas e desafios que dificultam a adoção de modelos soberanos.  
 - Um **framework conceitual** para orientar soluções híbridas ou descentralizadas.  
 - Diretrizes práticas que equilibrem segurança, privacidade, usabilidade e auditabilidade.  
-- Indicação de continuidade para o **TCC II**, com possibilidade de implementação prática.
+- Indicação de continuidade para o **TCC II**, para resultados, conclusões e finalização do trabalho.
 
 ---
