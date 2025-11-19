@@ -8,69 +8,110 @@
 
 ---
 
-## Descrição do Projeto
+## 📌 Descrição do Projeto
 
-Este projeto de pesquisa realiza uma análise comparativa entre sistemas de autenticação centralizados e descentralizados, investigando o uso da tecnologia **blockchain** como base para modelos de **identidade digital soberana**, nos quais o usuário mantém controle direto sobre suas credenciais.
+Este projeto investiga, de maneira **empírica e comparativa**, dois paradigmas amplamente utilizados para autenticação digital:
 
-A pesquisa busca compreender como propriedades essenciais da blockchain — como **imutabilidade**, **consenso distribuído**, **transparência** e **auditabilidade** — podem aprimorar segurança, privacidade e governança em sistemas de autenticação adotados em contextos governamentais, corporativos e educacionais.
+- mecanismos **centralizados** (OAuth 2.0, OpenID Connect, TOTP, senhas tradicionais)  
+- mecanismos **descentralizados** baseados em **blockchain**, contratos inteligentes e provas criptográficas.
 
-A abordagem adotada é **científica, exploratória e comparativa**, combinando análise documental, estudo de artigos primários, interpretação empírica de métricas disponíveis na literatura e comparação técnica entre paradigmas. O trabalho propõe uma **estrutura conceitual** que apoia engenheiros de software na criação de soluções mais **seguras, escaláveis e centradas no usuário**.
+A motivação surge do fato de que modelos centralizados dependem de provedores confiáveis e criam riscos estruturais como **ponto único de falha**, baixa auditabilidade e reduzida autonomia do usuário. Por outro lado, abordagens descentralizadas prometem maior **transparência, imutabilidade e soberania**, mas carregam desafios como custo operacional e complexidade de adoção.
 
----
-
-## Contexto e Fundamentação
-
-Com a crescente digitalização de serviços e avanço da Web 3.0, torna-se essencial repensar modelos tradicionais de autenticação. Sistemas baseados em *OAuth 2.0* e *OpenID Connect* concentram dados em provedores centrais, criando:
-
-- **pontos únicos de falha**,  
-- **riscos de privacidade**,  
-- **dependência institucional**,  
-- **superficialidade na auditabilidade**.
-
-Em contraponto, soluções descentralizadas descritas na literatura recente — como as de **Zhang et al. (2019)**, **Kaneriya & Patel (2023)** e **Jaffal et al. (2024)** — demonstram potencial para remover intermediários e ampliar a soberania do usuário através de contratos inteligentes e mecanismos criptográficos distribuídos.
-
-A partir desse cenário, este trabalho investiga como princípios da descentralização podem ser incorporados à **Engenharia de Software** para criar sistemas de autenticação mais transparentes, auditáveis e confiáveis.
+Este trabalho compara esses dois modelos com base em **métricas empíricas reportadas na literatura**, oferecendo uma visão clara dos **benefícios, limitações e trade-offs** envolvidos.
 
 ---
 
-## Objetivo Geral
+## 📌 Contextualização
 
-**Comparar sistemas de autenticação centralizados e descentralizados, identificando vantagens, limitações e oportunidades de melhoria, com foco na contribuição da Engenharia de Software.**
+Com a crescente dependência de sistemas online, os mecanismos de autenticação tornaram-se críticos para segurança, privacidade e integridade de dados. Protocolos amplamente adotados, como *OAuth 2.0* e *OpenID Connect*, funcionam bem na prática, mas dependem da integridade de servidores centrais — que podem ser atacados, comprometidos ou mal configurados.
 
----
+A literatura recente propõe alternativas baseadas em **blockchain**, explorando:
 
-## Objetivos Específicos
+- contratos inteligentes,
+- modelos de verificação distribuída,
+- ausência de autoridade central,
+- maior auditabilidade de operações.
 
-- Analisar criticamente abordagens recentes de autenticação descentralizada (2018–2025).  
-- Comparar *OAuth 2.0*, *OpenID Connect* e modelos baseados em blockchain.  
-- Levantar métricas técnicas de segurança, desempenho e usabilidade com base em estudos empíricos.  
-- Propor diretrizes de engenharia para desenvolvimento de sistemas híbridos ou soberanos.  
-- Evidenciar o papel da descentralização na soberania digital do usuário.
+Entretanto, ainda **não existe uma comparação sistemática**, baseada em evidências concretas, entre esses dois modelos de autenticação. A maioria dos estudos analisa soluções isoladas.
 
----
-
-## Metodologia
-
-A pesquisa segue princípios da **Engenharia de Software Experimental** e da **pesquisa documental comparativa**, estruturada nas seguintes etapas:
-
-1. **Levantamento e análise documental** de estudos primários sobre autenticação centralizada e descentralizada, sem uso de RSL formal.  
-2. **Seleção de artigos e casos representativos**, incluindo:  
-   - um protocolo centralizado (*OAuth 2.0*),  
-   - um modelo descentralizado baseado em blockchain.  
-3. **Extração e comparação de métricas** divulgadas nos estudos, considerando segurança, desempenho, escalabilidade e usabilidade.  
-4. **Análise comparativa** empregando raciocínio empírico e interpretação técnica.  
-5. **Síntese de diretrizes de engenharia** para orientar a construção de sistemas de autenticação soberana e auditável.
-
-A execução seguirá o cronograma da disciplina **TCC I – PUCMG (2025/1)**.
+Este trabalho aborda exatamente essa lacuna.
 
 ---
 
-## Resultados Esperados
+## 🎯 Objetivo Geral
 
-- Um panorama comparativo sólido entre autenticação centralizada e descentralizada.  
-- Identificação de lacunas técnicas e desafios práticos para adoção de modelos soberanos.  
-- Formulação de um **framework conceitual** para orientar soluções híbridas ou descentralizadas.  
-- Diretrizes práticas que equilibrem segurança, privacidade, usabilidade e auditabilidade.  
-- Continuidade no **TCC II** para análise final, conclusão e possível implementação prática.
+**Comparar, com base em evidências empíricas publicadas, mecanismos de autenticação tradicionais e modelos descentralizados baseados em blockchain, identificando benefícios, limitações e condições práticas de adoção.**
 
 ---
+
+## 🎯 Objetivos Específicos
+
+- Identificar e organizar métricas empíricas disponíveis na literatura sobre mecanismos centralizados e descentralizados.  
+- Construir uma matriz comparativa envolvendo segurança, desempenho e auditabilidade.  
+- Analisar criticamente os *trade-offs* entre os modelos, destacando vantagens e limitações reais.  
+- Sintetizar diretrizes de Engenharia de Software que auxiliem na adoção responsável de abordagens descentralizadas.
+
+---
+
+## 📌 Problema de Pesquisa
+
+A literatura carece de estudos comparativos robustos sobre autenticação. A maioria dos trabalhos aborda soluções isoladas, o que impede compreender:
+
+- em quais cenários a descentralização realmente traz benefícios;
+- quais riscos continuam existindo;
+- quais custos e barreiras dificultam a adoção prática.
+
+Sem essa comparação, engenheiros e instituições não têm clareza para tomar decisões técnicas fundamentadas.
+
+---
+
+## ❓ Questão de Pesquisa
+
+**Em que medida mecanismos de autenticação baseados em blockchain superam ou complementam modelos centralizados quanto à segurança, ao desempenho e à auditabilidade/operacionalidade?**
+
+---
+
+## 🧪 Metodologia
+
+O estudo segue uma abordagem **empírica e documental**, fundamentada na Engenharia de Software Experimental:
+
+1. **Seleção de artigos primários** sobre autenticação centralizada e descentralizada (2018–2025).  
+2. **Extração de métricas empíricas** reportadas nos estudos (latência, uso de CPU, vulnerabilidades, custos de verificação, etc.).  
+3. **Construção de matrizes comparativas** envolvendo três dimensões principais:
+   - Segurança  
+   - Desempenho  
+   - Auditabilidade / Operacionalidade  
+4. **Análise crítica** dos resultados encontrados.  
+5. **Síntese de diretrizes de Engenharia de Software** para adoção de tecnologias descentralizadas.
+
+---
+
+## 📌 Resultados Esperados
+
+- Um panorama comparativo estruturado sobre autenticação centralizada vs. descentralizada.  
+- Identificação de vantagens reais da descentralização — e também de suas limitações práticas.  
+- Uma matriz que facilite decisões de adoção tecnológica em instituições públicas e privadas.  
+- Diretrizes aplicáveis para arquitetos e engenheiros de software.  
+- Base metodológica para continuação no **TCC II**, incluindo possibilidade de implementação ou simulação.
+
+---
+
+## 📚 Escopo do Estudo
+
+O trabalho **não envolve implementação**, prototipação ou testes próprios.  
+Toda análise é realizada **a partir de dados empíricos já publicados**.
+
+As dimensões comparadas incluem:
+
+- segurança criptográfica  
+- vulnerabilidades conhecidas  
+- desempenho (latência, processamento, throughput)  
+- auditabilidade  
+- dependência de terceiros  
+- custos operacionais  
+- maturidade e viabilidade técnica  
+
+---
+
+## 📁 Organização do Repositório
+
